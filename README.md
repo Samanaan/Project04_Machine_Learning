@@ -1,6 +1,6 @@
 # Retail Price Optimization
 
-### Contributors: Greer Inns, Sarah Kim, Nolan Tonthat, Sam Spillane, Nazeli Mnatsakanyan, Jing Sy
+*Contributors: Greer Inns, Sarah Kim, Nolan Tonthat, Sam Spillane, Nazeli Mnatsakanyan, Jing Sy*
 
 ![image](https://github.com/Samanaan/Project04_Machine_Learning/assets/125831024/873bc642-17a4-4938-b41a-b205d3b3f066)
 
@@ -27,7 +27,7 @@ We plan to address this problem by utilizing a linear regression model to analyz
    - Step 1: Define Window Size (5)
    - Step 2: Group by product and set features/target variable
    - Step 3: Sliding Window training and testing to predict data points
-   - Step 4: Linear Regression Model Training using training data (features_train, target_train)
+   - Step 4: **Linear Regression Model Training** using training data (features_train, target_train)
    - Step 5: Unit price predictions (features_test)
    - Step 6: Evaluate using Mean Squared Error (MSE) - actual vs. predicted
    - Step 7: Calculate avg predicted price and MSE and loop to find price with min MSE
@@ -37,21 +37,25 @@ We plan to address this problem by utilizing a linear regression model to analyz
     - Step 1: Define Window Size (5)
     - Step 2: Group by product and set features/target variable
     - Step 3: Sliding Window training and testing to predict data points
-    - Step 4: Random Forest Regressor Model Training using training data (features_train, target_train)
+    - Step 4: **Random Forest Regressor Model Training** using training data (features_train, target_train)
     - Step 5: Unit price predictions (features_test)
     - Step 6: Evaluate using Mean Squared Error (MSE) - actual vs. predicted
     - Step 7: Calculate avg predicted price and MSE and loop to find price with min MSE
         → Optimal Model for Predicting Price 
 
     **XGBoost Model:**
-   - Step 1:
-   - Step 2:
-   - Step 3:
-   - 
+    - Step 1: Define Window Size (5)
+    - Step 2: Group by product and set features/target variable
+    - Step 3: Sliding Window training and testing to predict data points
+    - Step 4: Create an **XGBoost regression model** with 50 estimators and a fixed random state
+    - Step 5: Unit price predictions (features_test)
+    - Step 6: Evaluate using Mean Squared Error (MSE) - actual vs. predicted
+    - Step 7: Calculate avg predicted price and MSE and loop to find price with min MSE
+        → Optimal Model for Predicting Price 
   
 3. Export all data and visualize Model Performance/Evaluation
       - Visualize overall EDA process
       - Visualize and compare Model accuracy accross all 4 methods
       - Visualize Model performace across iterations/samples
      
-      - 
+   
