@@ -95,10 +95,10 @@ We then utilized three supervised machine learning models to optimize our model 
 - Additionally in this model, we looked at feature importance, across the 415 iterations of the model across the given window and time series, the iterations shown by the colors in the stacked bar graph below.
 - Here we see categories such as volume and product rating have little to no impact in our model.
 - We see freight price and competitor freight price to have the highest impact
-- When standard scaling was applied, we saw an increase in avg MSE and an identical feature similar profile, likely due to a very small variance in the smaller non-similar in units categories.
 
 <img width="328" alt="Screenshot 2023-08-21 at 1 33 53 PM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/0380a117-1551-48b8-8a60-eb0d32f4a58c">
 
+- When standard scaling was applied, we saw an increase in avg MSE and an identical feature similar profile, likely due to a very small variance in the smaller non-similar in units categories.
 
 #### XGBoost
 
