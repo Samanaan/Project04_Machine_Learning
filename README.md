@@ -44,7 +44,8 @@ Sliding Window Optimization: After adjusting the training and testing set select
    - Step 5: Unit price predictions (features_test)
    - Step 6: Evaluate using Mean Squared Error (MSE) - actual vs. predicted
    - Step 7: Calculate avg predicted price and MSE and loop to find price with min MSE
-        → Optimal Price
+
+     → Optimal Price
     **Random Forest Model:**
     - Step 1: Define Window Size (5)
     - Step 2: Group by product and set features/target variable
@@ -53,7 +54,8 @@ Sliding Window Optimization: After adjusting the training and testing set select
     - Step 5: Unit price predictions (features_test)
     - Step 6: Evaluate using Mean Squared Error (MSE) - actual vs. predicted
     - Step 7: Calculate avg predicted price and MSE and loop to find price with min MSE
-        → Optimal Model for Predicting Price
+
+     → Optimal Model for Predicting Price
 
       Random Forest Structure:
 <img width="417" alt="Screenshot 2023-08-21 at 11 59 43 AM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/18b0b2df-9d4e-45ef-b97d-ec3da3493460">
