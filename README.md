@@ -24,10 +24,15 @@ We plan to address this problem by utilizing a linear regression model to analyz
 
 2. Build, Train, Test, Evaluate ML Models (`Linear Regression` (Sliding Window, Cumulative Training), `Random Forest`, `XGBoost`)
 
-   Cumulative Training Structure:
+Sliding Window Optimization:
+
+
 <img width="467" alt="Screenshot 2023-08-21 at 11 57 06 AM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/bcde7ca7-6195-44d9-83e2-d641d9dd4b2e">
 
-   Sliding Window Optimization:
+
+Cumulative Training Structure:
+
+
 <img width="640" alt="Screenshot 2023-08-21 at 11 56 54 AM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/8263e1e0-8cce-4adf-835d-cf9bc0f0c0d9">
 
     **Linear Regression Models:**
