@@ -41,7 +41,7 @@ We initially tested both cumulative and moving window train/test selection metho
 ![Cumulative Selection](https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/8263e1e0-8cce-4adf-835d-cf9bc0f0c0d9)
 
 
-We utilized three supervised machine learning models to evaluate optimal price points:
+We utilized three supervised machine learning models to evaluate optimal price points utilizing the sliding window method:
 
 #### Linear Regression
 
