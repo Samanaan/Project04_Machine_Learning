@@ -36,7 +36,7 @@ Sliding Window Optimization: After adjusting the training and testing set select
 
 <img width="467" alt="Screenshot 2023-08-21 at 11 57 06 AM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/bcde7ca7-6195-44d9-83e2-d641d9dd4b2e">
 
-    **Linear Regression Models:**
+   **Linear Regression Models:**
    - Step 1: Define Window Size (5)
    - Step 2: Group by product and set features/target variable
    - Step 3: Sliding Window training and testing to predict data points
@@ -45,7 +45,6 @@ Sliding Window Optimization: After adjusting the training and testing set select
    - Step 6: Evaluate using Mean Squared Error (MSE) - actual vs. predicted
    - Step 7: Calculate avg predicted price and MSE and loop to find price with min MSE
         → Optimal Price
-
     **Random Forest Model:**
     - Step 1: Define Window Size (5)
     - Step 2: Group by product and set features/target variable
@@ -61,10 +60,10 @@ Sliding Window Optimization: After adjusting the training and testing set select
 
 <img width="577" alt="Screenshot 2023-08-21 at 12 20 45 PM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/47a73ed8-935b-43eb-9c74-56e1ea7437a8">
 
-      The Random forest model was selected as a second option for regression, with the idea visualized above. The training and testing datasets were selected via sliding window, and the number of decision trees was evaluated to be similar at all numbers, as visualized in the second image above.
+   The Random forest model was selected as a second option for regression, with the idea visualized above. The training and testing datasets were selected via sliding window, and the number of decision trees was evaluated to be similar at all numbers, as visualized in the second image above.
 
       
-    **XGBoost Model:**
+   **XGBoost Model:**
     - Step 1: Define Window Size (5)
     - Step 2: Group by product and set features/target variable
     - Step 3: Sliding Window training and testing to predict data points
@@ -74,7 +73,7 @@ Sliding Window Optimization: After adjusting the training and testing set select
     - Step 7: Calculate avg predicted price and MSE and loop to find price with min MSE
         → Optimal Model for Predicting Price
 
-      XGBoost Structure:
+   XGBoost Structure:
   <img width="922" alt="Screenshot 2023-08-21 at 11 59 54 AM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/4e130edf-0d3a-40d6-92e7-150317d3604e">
 
 4. Export all data and visualize Model Performance/Evaluation
