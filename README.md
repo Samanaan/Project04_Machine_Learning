@@ -23,8 +23,13 @@ We plan to address this problem by utilizing a linear regression model to analyz
 <img width="497" alt="Screenshot 2023-08-21 at 11 55 52 AM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/b2eb40a8-1e3b-462b-9aa2-3e70185e975d">
 
 2. Build, Train, Test, Evaluate ML Models (`Linear Regression` (Sliding Window, Cumulative Training), `Random Forest`, `XGBoost`)
+
+   Cumulative Training Structure:
 <img width="467" alt="Screenshot 2023-08-21 at 11 57 06 AM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/bcde7ca7-6195-44d9-83e2-d641d9dd4b2e">
+
+   Sliding Window Optimization:
 <img width="640" alt="Screenshot 2023-08-21 at 11 56 54 AM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/8263e1e0-8cce-4adf-835d-cf9bc0f0c0d9">
+
     **Linear Regression Models:**
    - Step 1: Define Window Size (5)
    - Step 2: Group by product and set features/target variable
@@ -43,7 +48,9 @@ We plan to address this problem by utilizing a linear regression model to analyz
     - Step 5: Unit price predictions (features_test)
     - Step 6: Evaluate using Mean Squared Error (MSE) - actual vs. predicted
     - Step 7: Calculate avg predicted price and MSE and loop to find price with min MSE
-        → Optimal Model for Predicting Price 
+        → Optimal Model for Predicting Price
+
+      Random Forest Structure:
 <img width="417" alt="Screenshot 2023-08-21 at 11 59 43 AM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/18b0b2df-9d4e-45ef-b97d-ec3da3493460">
 
     **XGBoost Model:**
@@ -54,10 +61,12 @@ We plan to address this problem by utilizing a linear regression model to analyz
     - Step 5: Unit price predictions (features_test)
     - Step 6: Evaluate using Mean Squared Error (MSE) - actual vs. predicted
     - Step 7: Calculate avg predicted price and MSE and loop to find price with min MSE
-        → Optimal Model for Predicting Price 
+        → Optimal Model for Predicting Price
+
+      XGBoost Structure:
   <img width="922" alt="Screenshot 2023-08-21 at 11 59 54 AM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/4e130edf-0d3a-40d6-92e7-150317d3604e">
 
-3. Export all data and visualize Model Performance/Evaluation
+4. Export all data and visualize Model Performance/Evaluation
       - Visualize overall EDA process
       - Visualize and compare Model accuracy accross all 4 methods
       - Visualize Model performace across iterations/samples
