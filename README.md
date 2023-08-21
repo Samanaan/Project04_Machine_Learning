@@ -20,6 +20,10 @@ We plan to address this problem by utilizing a linear regression model to analyz
   - Load data, basic exploration (data structure), data cleaning (e.g., `df.isnull()`), data transformation (e.g., `df.drop`, `pd.to_datetime`, `df.sort`)
 - Utilize `Matplotlib`, `Seaborn`:
   - Visualize and identify overall trends and patterns before building models
+    - Correlation Heatmap
+    - Total Price by Quantity Sold
+    - Total Price by Quantity Sold in Garden Tools
+    - Sales Volume, Revenue, and Customers Across the Product Categories
 
 ![Image 1](https://github.com/Samanaan/Project04_Machine_Learning/assets/125831024/065dd698-0f09-493b-a3e9-b2f9c1e70802)
 
@@ -29,7 +33,15 @@ We plan to address this problem by utilizing a linear regression model to analyz
 
 ### 2. Build, Train, Test, Evaluate ML Models
 
-We utilized three machine learning models:
+We initially tested both cumulative and moving window train/test selection methods: 
+
+
+<img width="873" alt="Screenshot 2023-08-21 at 12 47 43 PM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/765f867f-fcc5-49c8-933d-25df23d24873">
+
+![Cumulative Selection](https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/8263e1e0-8cce-4adf-835d-cf9bc0f0c0d9)
+
+
+We utilized three supervised machine learning models to evaluate optimal price points:
 
 #### Linear Regression
 
@@ -40,8 +52,7 @@ We utilized three machine learning models:
 - Step 5: Unit price predictions (features_test)
 - Step 6: Evaluate using Mean Squared Error (MSE) - actual vs. predicted
 - Step 7: Calculate avg predicted price and MSE and loop to find price with min MSE (Optimal Price)
-
-![Linear Regression](https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/8263e1e0-8cce-4adf-835d-cf9bc0f0c0d9)
+![Linear Regression](https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/e06d583d-e1ee-4e3c-9dcf-3e3d638048eb)
 
 #### Random Forest
 
@@ -74,5 +85,7 @@ We utilized three machine learning models:
 - Visualize Model performance across iterations/samples
 
 ![Model Performance](https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/63732e85-4809-4631-9cf8-e72ac8bd47f2)
+
+See Public Dashboard: https://public.tableau.com/app/profile/jing.sy/viz/Price_Optimization_Final/Dashboard1
 
 
