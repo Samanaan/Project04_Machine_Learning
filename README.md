@@ -56,8 +56,9 @@ After reading in the cleaned data from our SQLite database, we tested both cumul
 - We found better performance for optimization with sliding window, hypothetically this could be due to the fact that for price optimization, historical data eventually loses some relevance.
 - Following the selection of this method, we created a window size optimization visual, to select our window size of 5
 
+<p align="center">
 <img width="328" alt="Screenshot 2023-08-21 at 1 03 00 PM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/0dbc3799-d82e-4562-9123-a033dca995fd">
-
+</p>
 
 <img width="873" alt="Screenshot 2023-08-21 at 12 47 43 PM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/765f867f-fcc5-49c8-933d-25df23d24873">
 
@@ -90,14 +91,16 @@ We then utilized three supervised machine learning models to optimize our model 
 - In our random forest model, we also needed to determine the optimal number of decision trees, which was determined through the visualization below
 - As the visualization was inconclusive that decision trees had a significant effect on the results, the trees were set as 50.
 
+<p align="center">
 <img width="501" alt="Screenshot 2023-08-21 at 1 33 11 PM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/bc8f688c-bd3f-44de-b0c3-ed44e27f995a">
+</p>
 
 - Additionally in this model, we looked at feature importance, across the 415 iterations of the model across the given window and time series, the iterations shown by the colors in the stacked bar graph below.
 - Here we see categories such as volume and product rating have little to no impact in our model.
 - We see freight price and competitor freight price to have the highest impact
-
+<p align="center">
 <img width="328" alt="Screenshot 2023-08-21 at 1 33 53 PM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/0380a117-1551-48b8-8a60-eb0d32f4a58c">
-
+</p>
 - When standard scaling was applied, we saw an increase in avg MSE and an identical feature similar profile, likely due to a very small variance in the smaller non-similar in units categories.
 
 #### XGBoost
