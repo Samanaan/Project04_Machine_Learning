@@ -37,7 +37,7 @@ We plan to address this problem by utilizing a linear regression model to analyz
 
 ### 2. Build, Train, Test, Evaluate ML Models
 
-After reading in the cleaned data from our SQLite database, we tested both cumulative and moving window train/test selection methods on our initial regression model: 
+After reading in the cleaned data from our SQLite database, we tested both cumulative and moving window train/test selection methods to optimize our initial regression model: 
 #### Cumulative Training:
 - For cumulative training we started with an initial training dataset that includes data from the beginning of our time series up to a defined point.
 - We then trained our linear regression model on this dataset
@@ -61,7 +61,7 @@ After reading in the cleaned data from our SQLite database, we tested both cumul
 
 <img width="873" alt="Screenshot 2023-08-21 at 12 47 43 PM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/765f867f-fcc5-49c8-933d-25df23d24873">
 
-We utilized three supervised machine learning models to evaluate optimal price points utilizing the sliding window method:
+We then utilized three supervised machine learning models to optimize our model for ideal price points, all utilizing the sliding window method for data selection:
 
 #### Linear Regression
 
