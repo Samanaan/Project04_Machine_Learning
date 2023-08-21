@@ -31,9 +31,13 @@ We plan to address this problem by utilizing a linear regression model to analyz
 
 ![Image 3](https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/8a77947b-53d0-44e9-b186-9225e06bfd99)
 
+- Utilize `sqlite3`:
+  - Load cleaned data into SQL database titled 'pricing_opt.db'
+  - Exported pandas df as the table 'retail'
+
 ### 2. Build, Train, Test, Evaluate ML Models
 
-We tested both cumulative and moving window train/test selection methods on our initial regression model: 
+After reading in the cleaned data from our SQLite database, we tested both cumulative and moving window train/test selection methods on our initial regression model: 
 #### Cumulative Training:
 - For cumulative training we started with an initial training dataset that includes data from the beginning of our time series up to a defined point.
 - We then trained our linear regression model on this dataset
