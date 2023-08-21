@@ -86,6 +86,20 @@ We then utilized three supervised machine learning models to optimize our model 
 
 ![Random Forest](https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/18b0b2df-9d4e-45ef-b97d-ec3da3493460)
 
+##### Random Forest Optimization, Standard Scaling and Feature Importance
+- In our random forest model, we also needed to determine the optimal number of decision trees, which was determined through the visualization below
+- As the visualization was inconclusive that decision trees had a significant effect on the results, the trees were set as 50.
+
+<img width="501" alt="Screenshot 2023-08-21 at 1 33 11 PM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/bc8f688c-bd3f-44de-b0c3-ed44e27f995a">
+
+- Additionally in this model, we looked at feature importance, across the 415 iterations of the model across the given window and time series, the iterations shown by the colors in the stacked bar graph below.
+- Here we see categories such as volume and product rating have little to no impact in our model.
+- We see freight price and competitor freight price to have the highest impact
+- When standard scaling was applied, we saw an increase in avg MSE and an identical feature similar profile, likely due to a very small variance in the smaller non-similar in units categories.
+
+<img width="328" alt="Screenshot 2023-08-21 at 1 33 53 PM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/0380a117-1551-48b8-8a60-eb0d32f4a58c">
+
+
 #### XGBoost
 
 - Step 1: Define Window Size (5)
