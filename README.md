@@ -33,13 +33,29 @@ We plan to address this problem by utilizing a linear regression model to analyz
 
 ### 2. Build, Train, Test, Evaluate ML Models
 
-We initially tested both cumulative and moving window train/test selection methods: 
-
-
-<img width="873" alt="Screenshot 2023-08-21 at 12 47 43 PM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/765f867f-fcc5-49c8-933d-25df23d24873">
+We tested both cumulative and moving window train/test selection methods on our initial regression model: 
+#### Cumulative Training:
+- For cumulative training we started with an initial training dataset that includes data from the beginning of our time series up to a defined point.
+- We then trained our linear regression model on this dataset
+- After training, we make predictions for a future time period
+- Then we took the actual observed data for that period and added it to our training dataset for our model
+- We then made predictions for the next time step and repeated the above process
 
 ![Cumulative Selection](https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/8263e1e0-8cce-4adf-835d-cf9bc0f0c0d9)
 
+#### Sliding Window Training:
+- For sliding window we started with a fixed-size training window that would slide forward through our time series data
+- We then trained our linear regression model on this dataset
+- After training, we make predictions for a future time period
+- Then we took the actual observed data for that period and made that our training dataset for our model
+- We then made predictions for the next time step and repeated the above process
+- We found better performance for optimization with sliding window, hypothetically this could be due to the fact that for price optimization, historical data eventually loses some relevance.
+- Following the selection of this method, we created a window size optimization visual, to select our window size of 5
+
+<img width="328" alt="Screenshot 2023-08-21 at 1 03 00 PM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/0dbc3799-d82e-4562-9123-a033dca995fd">
+
+
+<img width="873" alt="Screenshot 2023-08-21 at 12 47 43 PM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/765f867f-fcc5-49c8-933d-25df23d24873">
 
 We utilized three supervised machine learning models to evaluate optimal price points utilizing the sliding window method:
 
