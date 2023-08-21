@@ -59,9 +59,9 @@ Sliding Window Optimization: After adjusting the training and testing set select
       Random Forest Structure:
 <img width="417" alt="Screenshot 2023-08-21 at 11 59 43 AM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/18b0b2df-9d4e-45ef-b97d-ec3da3493460">
 
-      The Random forest model was selected as a second option for regression, with the idea visualized above. The training and testing datasets were selected via sliding window, and the number of decision trees was evaluated to be similar at all numbers, as visualized below.
-      
-      <img width="577" alt="Screenshot 2023-08-21 at 12 20 45 PM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/47a73ed8-935b-43eb-9c74-56e1ea7437a8">
+<img width="577" alt="Screenshot 2023-08-21 at 12 20 45 PM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/47a73ed8-935b-43eb-9c74-56e1ea7437a8">
+
+      The Random forest model was selected as a second option for regression, with the idea visualized above. The training and testing datasets were selected via sliding window, and the number of decision trees was evaluated to be similar at all numbers, as visualized in the second image above.
 
       
     **XGBoost Model:**
