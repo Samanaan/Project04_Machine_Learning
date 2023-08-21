@@ -21,19 +21,20 @@ We plan to address this problem by utilizing a linear regression model to analyz
 
       <img width="655" alt="image" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/125831024/065dd698-0f09-493b-a3e9-b2f9c1e70802">
 <img width="497" alt="Screenshot 2023-08-21 at 11 55 52 AM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/b2eb40a8-1e3b-462b-9aa2-3e70185e975d">
+<img width="475" alt="Screenshot 2023-08-21 at 12 16 06 PM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/8a77947b-53d0-44e9-b186-9225e06bfd99">
+
 
 2. Build, Train, Test, Evaluate ML Models (`Linear Regression` (Sliding Window, Cumulative Training), `Random Forest`, `XGBoost`)
 
-Sliding Window Optimization:
+Cumulative Training Structure: This idea of training and testing sets was used for one iteration of the linear regression, and was then adjusted to the method of sliding window training and testing sets.
+
+<img width="640" alt="Screenshot 2023-08-21 at 11 56 54 AM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/8263e1e0-8cce-4adf-835d-cf9bc0f0c0d9">
+
+
+Sliding Window Optimization: After adjusting the training and testing set selection to the sliding window method, the window size was selected based on an optimization visualization below. The size selected was a window of 5.
 
 
 <img width="467" alt="Screenshot 2023-08-21 at 11 57 06 AM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/bcde7ca7-6195-44d9-83e2-d641d9dd4b2e">
-
-
-Cumulative Training Structure:
-
-
-<img width="640" alt="Screenshot 2023-08-21 at 11 56 54 AM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/8263e1e0-8cce-4adf-835d-cf9bc0f0c0d9">
 
     **Linear Regression Models:**
    - Step 1: Define Window Size (5)
@@ -58,6 +59,11 @@ Cumulative Training Structure:
       Random Forest Structure:
 <img width="417" alt="Screenshot 2023-08-21 at 11 59 43 AM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/18b0b2df-9d4e-45ef-b97d-ec3da3493460">
 
+      The Random forest model was selected as a second option for regression, with the idea visualized above. The training and testing datasets were selected via sliding window, and the number of decision trees was evaluated to be similar at all numbers, as visualized below.
+      
+      <img width="577" alt="Screenshot 2023-08-21 at 12 20 45 PM" src="https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/47a73ed8-935b-43eb-9c74-56e1ea7437a8">
+
+      
     **XGBoost Model:**
     - Step 1: Define Window Size (5)
     - Step 2: Group by product and set features/target variable
