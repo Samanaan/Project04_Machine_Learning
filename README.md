@@ -123,7 +123,11 @@ We then utilized three supervised machine learning models to optimize our model 
 
 ![Model Performance](https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/63732e85-4809-4631-9cf8-e72ac8bd47f2)
 
+![image_720](https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/1364538a-f6f4-41fd-b15a-4a81cb6c2d48)
+
+
+See Public Dashboards 1 and 2: 
 https://public.tableau.com/app/profile/jing.sy/viz/Price_Optimization_Final/Dashboard1?publish=yes
-See Public Dashboard: https://public.tableau.com/app/profile/jing.sy/viz/Price_Optimization_Final/Dashboard1
+
 
 
