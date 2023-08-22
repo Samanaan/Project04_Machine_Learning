@@ -120,6 +120,7 @@ We then utilized three supervised machine learning models to optimize our model 
 - Visualize overall EDA process
 - Visualize and compare Model accuracy across all 3 methods
 - Visualize Model performance across iterations/samples
+![image_360](https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/17134628-5efd-413f-897d-4ec590199e8f)
 
 ![Model Performance](https://github.com/Samanaan/Project04_Machine_Learning/assets/47437697/63732e85-4809-4631-9cf8-e72ac8bd47f2)
 
