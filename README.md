@@ -135,6 +135,6 @@ https://public.tableau.com/app/profile/jing.sy/viz/Price_Optimization_Final/Dash
 Average accuracies for the prediction phase of each model are outlined below, however as price optimization was the goal of the project, our visualizations focus on MSE and selection of the price with the minimum MSE to optimize the price, in which case accuracy measurements lose relevance:
 - Linear Regression Window: 56.6566%
 - RF: 56.6566%
-- XGBoost: 56.6566%
+- XGBoost: 60.0414%
 - Linear Regression Cumulative: 56.3470%
 
