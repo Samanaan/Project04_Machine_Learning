@@ -132,7 +132,7 @@ We then utilized three supervised machine learning models to optimize our model 
 See Public Dashboards 1 and 2: 
 https://public.tableau.com/app/profile/jing.sy/viz/Price_Optimization_Final/Dashboard1?publish=yes
 
-Average accuracies for the prediction phase of each model are outlined below, however the optimization was the goal of the product our visualizations focus on MSE and selection of the price with the minimum MSE:
+Average accuracies for the prediction phase of each model are outlined below, however as price optimization was the goal of the project, our visualizations focus on MSE and selection of the price with the minimum MSE to optimize the price, in which case accuracy measurements lose relevance:
 - Linear Regression Window: 56.6566%
 - RF: 56.6566%
 - XGBoost: 56.6566%
